@@ -259,14 +259,15 @@ img {
   line-height: 13px;
   font-weight: 600;
   letter-spacing: 3px;
-  color: #f26464;
+  color: #fff;
   padding: 17px 30px;
   border: 2px solid #f26464;
   border-radius: 60px;
+  background-color: #f26464;
 }
 .ds-button:hover {
-  background-color: #f26464;
-  color: #fff;
+  background-color: #fff;
+  color: #f26464;
 }
 .ds-arrow-button i {
   display: inline-block;
@@ -648,4 +649,44 @@ span.ds-location {
     padding-right: 30px;
     padding-bottom: 60px;
   }
+}
+
+.ds-linkedin-btn-wrapper {
+  margin-top: 40px;
+}
+
+.ds-linkedin-desc {
+  font-size: 18px;
+  color: #373737;
+  margin-bottom: 18px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+.ds-linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #0077b5;
+  color: #fff !important;
+  border: none;
+  border-radius: 60px;
+  padding: 17px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 24px rgba(0, 119, 181, 0.12);
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+.ds-linkedin-btn i {
+  font-size: 24px;
+  vertical-align: middle;
+}
+.ds-linkedin-btn:hover,
+.ds-linkedin-btn:focus {
+  background: #005983;
+  color: #fff !important;
+  box-shadow: 0 6px 32px rgba(0, 119, 181, 0.18);
+  text-decoration: none;
 }
